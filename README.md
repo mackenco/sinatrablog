@@ -1,0 +1,1 @@
+Learning how to use Sinatra. Simple blog app, following tutorial at http://www.danneu.com/posts/15-a-simple-blog-with-sinatra-and-active-record-some-useful-tools/
