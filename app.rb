@@ -31,7 +31,7 @@ end
 get "/posts/:id" do
   @post = Post.find(params[:id])
   @title = @post.title
-  erb :"posts/show"
+  haml :"posts/show"
 end
 
 get "/posts/:id/edit" do
@@ -56,7 +56,7 @@ end
 
 get "/about" do
   @title = "About Me"
-  erb :"pages/about"
+  haml :"pages/about"
 end   
 
 helpers do
