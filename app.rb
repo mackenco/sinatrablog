@@ -66,7 +66,7 @@ helpers do
     time.strftime("%d %b %Y")
   end
   
-  def post_show_pages?
+  def post_show_page?
     request.path_info =~ /\/posts\/\d+$/
   end
   
